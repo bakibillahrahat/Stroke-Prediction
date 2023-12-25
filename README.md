@@ -15,10 +15,12 @@ This delay is particularly concerning when we consider that Ischemic stroke pati
 * 4% better odds of walking independently after leaving the hospital
 * 3% better odds of being sent home instead of to an institution
 * 4% lower odds of a brain hemorrhage.”
+## Dataset
+kaggle-Link: https://www.kaggle.com/datasets/kukuroo3/stoke-prediction-dataset
 
 ## Results
 
-* Gaussian Naive Bayes: 97.57%
+* Gaussian Naive Bayes: 85.97%
 
 ## Usage
 

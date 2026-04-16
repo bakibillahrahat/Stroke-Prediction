@@ -1,41 +1,103 @@
-<h1 align="center"> 🧠 Stroke Prediction Analysis </h1>
+<div align="center">
 
-<p align="center">
-  <em>A Machine Learning Project predicting the likelihood of a stroke using the Naïve Bayes Classifier.</em>
-</p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
+
+  <br/><br/>
+
+  <h1>🧠 Stroke Prediction Analysis</h1>
+  <p><strong>A Machine Learning project predicting the likelihood of stroke using the Naïve Bayes Classifier.</strong></p>
+
+  <img src="https://img.shields.io/badge/Accuracy-85.97%25-0D9E75?style=flat-square" />
+  <img src="https://img.shields.io/badge/Model-Gaussian_Naïve_Bayes-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Status-Complete-success?style=flat-square" />
+
+</div>
+
+---
 
 ## 📖 What is a Stroke?
-A stroke, sometimes called a brain attack, occurs when something blocks the blood supply to part of the brain or when a blood vessel in the brain bursts. In either case, parts of the brain become damaged or die. A stroke can cause lasting brain damage, long-term disability, or even death.
 
-## ❓ Why do we need stroke prediction analysis?
-This delay is particularly concerning when we consider that Ischemic stroke patients suffer the loss of two million brain cells every minute until blood flow is restored. In this context, an earlier diagnosis can mean faster treatment. One Harvard Medical study breaks down the benefits of early treatment as follows: 
+A stroke — sometimes called a *brain attack* — occurs when something blocks blood supply to part of the brain, or when a blood vessel in the brain bursts. In either case, parts of the brain become damaged or die, potentially causing lasting brain damage, long-term disability, or death.
 
-For every **15-minute acceleration** of time to treatment, they found:
-* 📉 **4%** lower risk of in-hospital death
-* 🚶 **4%** better odds of walking independently after leaving the hospital
-* 🏠 **3%** better odds of being sent home instead of to an institution
-* 🧠 **4%** lower odds of a brain hemorrhage.
+---
 
-## 🛠️ Languages & Tools Used
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40" title="Python"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40" title="Pandas"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" alt="numpy" width="40" height="40" title="NumPy"/>&nbsp;
-  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit-learn" width="50" height="40" title="Scikit-Learn"/>&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" alt="jupyter" width="40" height="40" title="Jupyter"/>
-</p>
+## ❓ Why Stroke Prediction?
+
+Ischemic stroke patients lose **2 million brain cells every minute** until blood flow is restored. Earlier diagnosis means faster treatment — and faster treatment saves lives.
+
+A Harvard Medical study found that for every **15-minute acceleration** in time to treatment:
+
+| Outcome | Improvement |
+|---|---|
+| 🏥 Risk of in-hospital death | ↓ 4% lower |
+| 🚶 Odds of walking independently post-discharge | ↑ 4% better |
+| 🏠 Odds of returning home vs. an institution | ↑ 3% better |
+| 🧠 Odds of brain hemorrhage | ↓ 4% lower |
+
+---
 
 ## 📊 Dataset
-The data used to train and evaluate the models was sourced from Kaggle:
-🔗 **[Stroke Prediction Dataset](https://www.kaggle.com/datasets/kukuroo3/stoke-prediction-dataset)**
+
+Training and evaluation data sourced from Kaggle:
+
+🔗 [Stroke Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
+
+---
 
 ## 📈 Results
-The data was cleaned, preprocessed, and tested on a machine learning model, yielding the following accuracy:
-* 🤖 **Gaussian Naive Bayes:** `85.97%`
 
-## 🚀 Usage
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/bakibillahrahat/Stroke-Prediction.git](https://github.com/bakibillahrahat/Stroke-Prediction.git)
-2. Make sure your local environment has the required dependencies installed (pandas, numpy, matplotlib, seaborn, missingno, and scikit-learn).
-3. Open the notebooks (stroke_prediction.ipynb or stroke_prediction1.ipynb) in Jupyter or Google Colab to run the analysis and reproduce the results.
+After data cleaning, preprocessing, and model training:
+
+| Model | Accuracy |
+|---|---|
+| 🤖 Gaussian Naïve Bayes | **85.97%** |
+
+---
+
+## 🚀 Getting Started
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/bakibillahrahat/Stroke-Prediction.git
+cd Stroke-Prediction
+```
+
+**2. Install dependencies**
+
+```bash
+pip install pandas numpy matplotlib seaborn missingno scikit-learn
+```
+
+**3. Run the notebook**
+
+Open either notebook in Jupyter or Google Colab:
+
+```
+stroke_prediction.ipynb
+stroke_prediction1.ipynb
+```
+
+---
+
+## 📁 Project Structure
+
+```
+Stroke-Prediction/
+├── stroke_prediction.ipynb      # Main analysis notebook
+├── stroke_prediction1.ipynb     # Alternate/experimental notebook
+├── dataset/                     # Raw and processed data
+└── README.md
+```
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ by <a href="https://bakibillahrahat.me">MD. Bakibillah Rahat</a></sub>
+</div>
